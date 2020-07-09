@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="赛尔号登录器.Widget.鼠标录制"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:赛尔号登录器"
+             mc:Ignorable="d" 
+             d:DesignHeight="199.16" d:DesignWidth="355.042" Foreground="{x:Null}" BorderBrush="#FF70837E" HorizontalAlignment="Left" VerticalAlignment="Top" Background="Red" Width="285" Height="165">
+    <Grid Background="#FFC53E3E">
+        <Border x:Name="Close1" BorderBrush="Black" BorderThickness="0" Margin="0,5,4,0" Background="#FF891D1D" Cursor="Hand" HorizontalAlignment="Right" VerticalAlignment="Top" Width="42" Height="39" MouseLeftButtonDown="Close_MouseLeftButtonDown">
+            <Grid>
+                <Rectangle x:Name="rectangle1" HorizontalAlignment="Right" Height="16" Margin="0,11,20,0" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="2" Fill="#FF631212" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="45"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Rectangle x:Name="rectangle" HorizontalAlignment="Left" Height="2" Margin="13,18,0,0" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="16" Fill="#FF631212" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="45"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+            </Grid>
+        </Border>
+        <Label Content="录制鼠标" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" Margin="94,21,109,111" Foreground="White"/>
+        <Label x:Name="Label1" Content="按[Home]开始录制" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" Margin="52,59,55,73" Width="178" Foreground="White"/>
+        <Label x:Name="Label2" Content="按[End]开始播放" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" Margin="65,97,42,35" Width="178" Foreground="White"/>
+    </Grid>
+</UserControl>

@@ -1,0 +1,34 @@
+[ENABLE]
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem:
+mov eax,ecx
+add eax,1c
+push 9
+call 0239D140
+sub eax,1c
+mov ecx,eax
+
+originalcode:
+mov eax,[ecx+1C]
+mov ecx,[ebp-10]
+
+exit:
+jmp returnhere
+
+1174353B:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+dealloc(newmem)
+1174353B:
+mov eax,[ecx+1C]
+mov ecx,[ebp-10]

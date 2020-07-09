@@ -1,0 +1,29 @@
+[ENABLE]
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem:
+push 1
+call 0239D140
+
+originalcode:
+call eax
+add esp,10
+
+exit:
+jmp returnhere
+
+290EDE2F:
+jmp newmem
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+dealloc(newmem)
+290EDE2F:
+call eax
+add esp,10

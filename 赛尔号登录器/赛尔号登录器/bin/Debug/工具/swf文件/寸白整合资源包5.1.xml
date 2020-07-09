@@ -1,0 +1,195 @@
+﻿<!--
+ id=3：最后一周 
+     king=“”:图标类型，1=精灵，2=付费，3=其他，4=暂时作废的ICON 
+-->
+<seerBox>
+<subPanel id="1" className="com.robot.app2.control.SeerBox.SeerBoxOnePanel" res="SeerBoxOnePanel">
+<btn type="module" url="app/ChangLeaderMainPanel"/>
+<btn type="module" url="app/XteamChimerismMainPanel"/>
+<btn type="module" url="app/OranCompletelyBodyMianPanel"/>
+</subPanel>
+<subPanel id="2" className="com.robot.app2.control.SeerBox.SeerBoxTwoPanel" res="SeerBoxTwoPanel">
+<btn type="module" url="app/DiamondTaskMainPanel" itemClass="com.robot.app2.control.SeerBox.MiniItem1Panel"/>
+<btn type="module" url="app/SeerOnlineSendGiftPanel2015" itemClass="com.robot.app2.control.SeerBox.MiniItem2Panel"/>
+<btn type="module" url="app/MeritSystemOnlineMianPanel" itemClass="com.robot.app2.control.SeerBox.MiniItem3Panel"/>
+<btn type="module" url="app/PetWarMain2105NewPanel" itemClass="com.robot.app2.control.SeerBox.MiniItem4Panel"/>
+<btn type="module" url="app/CollectResistantStonePanel" itemClass="com.robot.app2.control.SeerBox.MiniItem5Panel"/>
+<btn type="module" url="app/AnniversaryLoginGiftPanel" itemClass="com.robot.app2.control.SeerBox.MiniItem6Panel"/>
+<btn type="module" url="app/TeamJoinPanel" itemClass="com.robot.app2.control.SeerBox.MiniItem7Panel"/>
+<btn type="map" url="1095" itemClass="com.robot.app2.control.SeerBox.MiniItem8Panel"/>
+</subPanel>
+<subPanel id="3" className="com.robot.app2.control.SeerBox.SeerBoxSevenPanel" res="SeerBoxSevenPanel">
+<btn type="module" url="app/TotemWorshipPanel
+" name="图腾每日抽水晶" kind="1"/>
+<btn type="module" url="app/SuitChange
+" name="刷天赋（低级套装在机械室购买）" kind="1"/>
+<btn type="module" url="app/VIPSevenAnniversaryOfTheFiveTreasuresLotteryPanel
+" name="每日抽水晶S石天赋药 vip在线领取2致命珠" kind="1"/>
+<btn type="module" url="app/KingSoulBelss0324MainPanel
+" name="每日体力红绿宝石" kind="1"/>
+<btn type="module" url="app//HaiShenPanel
+" name="五日四个特性开启芯片" kind="1"/>
+<btn type="module" url="app/QingXiaoBaoMainPanel
+" name="秦小宝每日一重组（别领精灵）" kind="1"/>
+<btn type="module" url="app//BootyBayPanel
+
+" name="掷骰子每日一重组" kind="1"/>
+<btn type="module" url="app//EvilSpiritsReturnExchangePanel
+" name="两天一重组" kind="1"/>
+<btn type="module" url="app//TigerFightShadowPanel
+" name="猛虎王每日一重组" kind="1"/>
+<btn type="module" url="app//GiftLuckyStarPanel1
+" name="随机出重组" kind="1"/>
+<btn type="module" url="app//ImperishableLightPanel
+" name="一周三个重组" kind="1"/>
+<btn type="module" url="app//HolyLightSpiritKingPartnerCallMainPanel
+" name="每日精灵还原和天赋洗练" kind="1"/>
+<btn type="module" url="app//ShenyuanmojieMainPanel
+" name="每日1W经验券X100" kind="1"/>
+<btn type="module" url="app/CuteWhiteSummerPlanPanel
+" name="每日50w经验券" kind="1"/>
+<btn type="module" url="app/MirrorOfTruthAndLightTheFireMianPanel
+" name="每日100w经验" kind="1"/>
+<btn type="module" url="app//SuolunsenCountdownPanel
+" name="还原药x3爱迪尔（每日50w积累经验）" kind="1"/>
+<btn type="module" url="app//OpenCeremonyGamePanel
+" name="每日百万赛尔豆（可配合代理器）" kind="1"/>
+<btn type="module" url="app/SeerTrainingPanel
+" name="老版在线奖励（先领老版再领新版）" kind="1"/>
+<btn type="module" url="app/TitanSpiritBigDeliveryMainPanel
+" name="每日30w泰坦" kind="1"/>
+<btn type="module" url="app/MavityPanel
+" name="玛维前置后两次给S石" kind="1"/>
+<btn type="module" url="app//SparklePetMainPanel
+" name="每日10w赛尔号及闪光精灵" kind="1"/>
+<btn type="module" url="app/ADCardPetPanel
+" name="vip每日抽奖" kind="1"/>
+<btn type="module" url="app/SwireAhrimanMainPanel
+" name="每日抽水晶" kind="1"/>
+<btn type="module" url="app/SwireDemonsMainPanel
+" name="每日抽水晶" kind="1"/>
+<btn type="module" url="app/AncientEvilGodMainPanel
+" name="每日抽水晶" kind="1"/>
+<btn type="module" url="app/ElfDefenseSpaceStationMianPanel
+" name="太空站水晶（4天）" kind="1"/>
+<btn type="module" url="app/KingOfElves0428MainPanel
+
+" name="精灵王五星药剂（需要10只精灵王）" kind="1"/>
+<btn type="module" url="app/OnlineSendEvilDragonPanel
+" name="能量珠邪龙尊" kind="1"/>
+<btn type="module" url="app/CandyCastlePanel
+" name="樱洛" kind="1"/>
+<btn type="module" url="app/NonoVipPanel
+" name="超no每日一至尊胶囊" kind="1"/>
+<btn type="module" url="app/AngryLukasiPanel
+" name="卢卡斯25天水晶" kind="1"/>
+<btn type="module" url="app//RoadToGrowthPanel
+" name="成长之路水晶（领一次会卡主，需要刷新）" kind="1"/>
+<btn type="module" url="app//KingTowerChoicePanel
+" name="王者之塔（在太空站地图进入）" kind="1"/>
+<btn type="module" url="app//KingTowerHeroChoicePanel
+" name="极限王者塔（2水晶，在太空站地图进入）" kind="1"/>
+<btn type="module" url="app//PetKingMachinePanel
+
+" name="老机王一水晶（图鉴进入萨夫特地图后再打开）" kind="1"/>
+<btn type="module" url="app//RunawaySaRuikaPanel
+" name="魔化萨瑞卡水晶（140钻）" kind="1"/>
+<btn type="module" url="app//GuanYuEvolutionPanel
+" name="刘关张+羁绊（点羁绊可15元购买小刘关张）" kind="1"/>
+<btn type="module" url="app//AotuosiPanel
+" name="小关羽（20天获取或者新兵免费领）" kind="1"/>
+<btn type="module" url="app//BoersiPanel
+" name="小刘备（20天获取或者老兵免费领）" kind="1"/>
+<btn type="module" url="app//AnotherFormOfHamletPanel
+" name="龙族战将称号" kind="1"/>
+<btn type="module" url="app//SignUpGetMengQiDuoKePanel
+" name="蒙奇多克（40钻补签）" kind="1"/>
+<btn type="module" url="app//DragonhawkMainPanel
+" name="黄金龙鹰（伤害翻倍四倍克超能）" kind="1"/>
+<btn type="module" url="app//PetCountermarkFoundPanel
+" name="随机三角两角刻印（一次性）" kind="1"/>
+<btn type="module" url="app//LiYaSiMainPanel
+" name="利亚苏斯（超飞系低体翻倍）" kind="1"/>
+<btn type="module" url="app//MarsUnionPanel
+" name="联盟的审判" kind="1"/>
+<btn type="module" url="app//NewseerGetELFKingPanel
+
+" name="冰、火、飞王三选一（16年后的号可以尝试）" kind="1"/>
+<btn type="module" url="app//GoldenTwelvePalaceChoicePanel
+" name="黄金十二宫（可获取龙系以前的所有S技能石）" kind="1"/>
+<btn type="module" url="app//DiamondSystemPreBroadcastPanel
+" name="钻石预约（先完成预约才可领钻）" kind="1"/>
+<btn type="module" url="app//DiamondSystemMsgPanel
+" name="领取60钻石（配合预约，拥有钻石越多领的越多，1000钻领60）" kind="1"/>
+<btn type="module" url="app//YingRenMainPanel
+" name="影忍·黑段" kind="1"/>
+<btn type="module" url="app//LuckyCardProPanel
+" name="布鲁斯韦恩，超合金塔克林" kind="1"/>
+<btn type="module" url="app//DreamlandKingMainPanel
+
+" name="幻境和炽鬼（使用后会跳转地图，在地图再次打开）" kind="1"/>
+<btn type="module" url="app//MonthSonChillaMeichaoEvolutionMainPanel
+
+" name="月之子奇拉美" kind="1"/>
+<btn type="module" url="app//ClassicPetSkinSellPanel
+" name="38钻皮肤" kind="1"/>
+<btn type="module" url="app//JanuaryEffectTurnedTheSonOfPartnersMainPanel
+" name="光之子月之子+羁绊" kind="1"/>
+<btn type="module" url="app//NewSeerPetsPanel
+" name="机盖79钻，战盖vip免费领，幻缪兑钻领" kind="1"/>
+<btn type="module" url="app///NewSeerSongMiuSiPanel
+" name="兑钻送缪斯完全体" kind="1"/>
+<btn type="module" url="app//ShenglingshiReceivePanel
+" name="每月一颗王者圣灵石" kind="1"/>
+<btn type="module" url="app//NewEraOfUniverseMainPanel
+" name="精灵还原药剂x5" kind="1"/>
+<btn type="module" url="app//QLeiyiMainPanel
+" name="领取雷小伊（无法重复获得）" kind="1"/>
+<btn type="module" url="app//NinjaEliteTeam0414MainPanel
+
+" name="98钻购买火忍·浓信（火战系，技能伤害翻倍）" kind="1"/>
+<btn type="module" url="app//DrPatElfSuperEvolutionMainPanel
+" name="博士精灵埃尔尼亚（可代替张飞反弹）" kind="1"/>
+<btn type="module" url="app//MonsterKingMonthGift0421MainPanel
+" name="至强天赋药高级体力（精灵王合体实验）" kind="1"/>
+<btn type="module" url="app//MibaoMainPanel
+" name="米宝每日抽奖" kind="1"/>
+<btn type="module" url="app//GetNewseerGiftPanel
+" name="新手礼包（领取光之子万妖王，需要有米咔）" kind="1"/>
+<btn type="module" url="app//NewseerTrainTaskPanel
+" name="新手任务领米咔雷小伊" kind="1"/>
+<btn type="module" url="app//NewseerBattlePathMainPanel
+" name="新兵挑战领至强天赋药" kind="1"/>
+<btn type="module" url="app//SignUpSendNonoSkinPanel
+" name="战神联盟nono皮肤" kind="1"/>
+<btn type="module" url="app//DarkBuLaiKeMianPanel
+" name="黑布超进化（需去ce110弄前置）" kind="1"/>
+<btn type="module" url="app//SignUpToGetPetPanel
+" name="帝龙圣尊免费领" kind="1"/>
+<btn type="module" url="app//StarPetArenaDrawPanel
+" name="抽绝版精灵" kind="1"/>
+<btn type="module" url="app//OpenSchoolGetMechaMainPanel
+" name="抽圣甲联盟上一形态" kind="1"/>
+<btn type="module" url="app//BlackCrystalMainPanel
+" name="采集技能石" kind="1"/>
+<btn type="module" url="app//LightPetRIZZOAWPanel
+" name="闪光精灵" kind="1"/>
+<btn type="module" url="app/FeedbackCouponGetRegular
+" name="vip领5-10个S技能石" kind="1"/>
+<btn type="module" url="app/WheelChoicePanel
+" name="" kind="1"/>
+</subPanel>
+<subPanel id="4" className="com.robot.app2.control.SeerBox.SeerBoxFourPanel" res="SeerBoxFourPanel">
+<!--
+ <btn type="module" url = "app/JulMainPanel2"  startTime="2017/3/24"  endTime="2017/3/31" />  
+-->
+</subPanel>
+<subPanel id="5" updateNum="0" className="com.robot.app2.control.SeerBox.SeerBoxFivePanel" res="SeerBoxFivePanel">
+<item name="雷伊" productId="" sAni="5" dAni="4"/>
+<item name="盖亚" productId="" sAni="5" dAni="4"/>
+<item name="卡修斯" productId="249098" sAni="5" dAni="4"/>
+<item name="布莱克" productId="249099" sAni="5" dAni="4"/>
+<item name="缪斯" productId="249100" sAni="5" dAni="4"/>
+</subPanel>
+<subPanel id="6" className="com.robot.app2.control.SeerBox.SeerBoxSixPanel" res="SeerBoxSixPanel"></subPanel>
+</seerBox>
